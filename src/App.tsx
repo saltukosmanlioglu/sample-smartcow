@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+import Library from "pages/detail/library";
+import SignIn from "pages/membership/sign-in";
+import SignOut from "pages/membership/sign-out";
+import Video from "pages/detail/video";
+
+import "app/global/Global.scss";
+
+const App: React.FunctionComponent = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<SignIn />} path="sign-in" />
+        <Route element={<SignOut />} path="sign-out" />
+        <Route element={<Video />} path="video" />
+        <Route element={<Library />} path="library" />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
