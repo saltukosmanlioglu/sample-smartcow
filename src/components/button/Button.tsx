@@ -8,11 +8,13 @@ const Button: React.FunctionComponent<ButtonProps> = ({
   color = "default",
   onClick,
   outline,
+  type,
 }) => {
   return (
     <button
       onClick={() => onClick?.()}
       className={`button ${outline ? `button-${color}-o` : `button-${color}`}`}
+      type={type}
     >
       {children}
     </button>

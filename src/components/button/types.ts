@@ -7,4 +7,5 @@ export interface ButtonProps {
   children?: React.ReactNode | string;
   onClick?: () => void;
   outline?: boolean;
+  type?: React.ButtonHTMLAttributes<HTMLButtonElement>["type"];
 }
