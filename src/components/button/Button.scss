@@ -1,0 +1,25 @@
+.button {
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 14px;
+
+  &-default {
+    background-color: #f1f1f1;
+    color: #999999;
+  }
+
+  &-success {
+    background-color: #46b13d;
+    color: #fff;
+  }
+
+  &-info {
+    background-color: #ebf2ff;
+    color: #3860ad;
+  }
+
+  &-error {
+    color: #EE6363;
+  }
+}
