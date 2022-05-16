@@ -1,2 +1,58 @@
 .plan {
+  width: 100%;
+  padding: 20px 25px;
+  border-radius: 10px;
+
+  &-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #222222;
+  }
+
+  &-matters {
+    margin-top: 20px;
+
+    &-explain {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 12px;
+
+      p {
+        margin-left: 15px;
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+  }
+
+  &-price {
+    font-weight: 700;
+    font-size: 17px;
+    color: #181059;
+
+    span {
+      font-size: 12px;
+    }
+  }
+
+  &-status {
+    margin-top: 20px;
+    width: 100%;
+    background: #ebf2ff;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #3860ad;
+    padding: 12px 0;
+
+    &-active {
+      font-weight: 600;
+      font-size: 20px;
+      color: #1c7714;
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
 }
