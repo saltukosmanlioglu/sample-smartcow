@@ -25,3 +25,20 @@ button {
 img {
   height: auto;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}

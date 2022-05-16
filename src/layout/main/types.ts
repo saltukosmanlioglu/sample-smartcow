@@ -4,6 +4,6 @@ import type { HeaderProps } from "layout/components/header";
 
 export interface MainProps {
   children: React.ReactNode;
-  headerProps?: HeaderProps
+  headerProps?: HeaderProps;
   title: string;
 }

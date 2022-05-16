@@ -1,0 +1,28 @@
+.profile {
+  &-picture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    button {
+      width: 32px;
+      height: 32px;
+      background-color: #ebf2ff;
+      border-radius: 50%;
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &-detail {
+    margin-top: 43px;
+  }
+}
+
+.my-plan {
+}
+
+.billing {
+}
