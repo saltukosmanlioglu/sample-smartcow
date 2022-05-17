@@ -1,2 +1,33 @@
 .table {
+  &-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #222222;
+        opacity: 0.5;
+      }
+
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  &-body {
+    & > div {
+      padding: 20px 4px;
+    }
+  }
 }

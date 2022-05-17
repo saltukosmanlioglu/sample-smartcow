@@ -2,7 +2,7 @@ import Plan from "widgets/plan";
 
 import "../Account.scss";
 
-const MyPlan = () => {
+const MyPlan: React.FunctionComponent = () => {
   const plans = [
     {
       activePlan: false,

@@ -3,7 +3,7 @@ import TextInput from "components/text-input";
 
 import "../Account.scss";
 
-const Profile = () => {
+const Profile: React.FunctionComponent = () => {
   return (
     <div className="profile">
       <div className="profile-picture">
