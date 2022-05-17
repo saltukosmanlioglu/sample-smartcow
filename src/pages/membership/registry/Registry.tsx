@@ -30,6 +30,7 @@ const Registry: React.FunctionComponent = () => {
       title="Registry"
     >
       <div className="registry">
+        <img src="/images/baloon.png" alt="Balloon" />
         <form onSubmit={(e) => handleSubmit(e)}>
           <TextInput
             inputProps={{ placeholder: "Enter your full name" }}

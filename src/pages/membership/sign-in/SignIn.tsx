@@ -27,6 +27,7 @@ const SignIn: React.FunctionComponent = () => {
   return (
     <Main headerProps={{ border: false, title: "Sign In" }} title="Sign In">
       <div className="sign-in">
+        <img src="/images/baloon.png" alt="Balloon" />
         <form onSubmit={(e) => handleSubmit(e)}>
           <TextInput
             inputProps={{ placeholder: "Enter your email address" }}
