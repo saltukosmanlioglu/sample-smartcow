@@ -2,7 +2,7 @@ import React from "react";
 
 import { ButtonProps } from "components/button";
 import Main from "layout/main";
-import Video from "widgets/video";
+import VideoCard from "widgets/video-card";
 
 import "./Library.scss";
 
@@ -16,7 +16,15 @@ const Library: React.FunctionComponent = () => {
       headerProps={{ actions: actions, title: "Saved Videos" }}
       title="Library"
     >
-      <Video />
+      <div className="gutter">
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+        <VideoCard />
+      </div>
     </Main>
   );
 };
