@@ -1,0 +1,13 @@
+.actor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+
+  & button {
+    width: calc(100% / 3 - 11px);
+
+    p {
+      text-align: center;
+    }
+  }
+}
