@@ -1,0 +1,16 @@
+.alignment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  & > button {
+    width: 100%;
+    padding: 13px 0 !important;
+
+    &:not(:last-child) {
+      margin-right: 22px;
+    }
+  }
+}

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Voice.scss";
+
 const Voice: React.FunctionComponent = () => {
   return (
     <div>

@@ -7,19 +7,37 @@
   &-default {
     background-color: #f1f1f1;
     color: #999999;
+
+    &-o {
+      background-color: #ebf2ff;
+      color: #999999;
+      border: 1px solid #999999;
+    }
   }
 
   &-success {
     background-color: #46b13d;
     color: #fff;
+
+    &-o {
+      background-color: #ebf2ff;
+      color: #46b13d;
+      border: 1px solid #46b13d;
+    }
   }
 
   &-info {
     background-color: #ebf2ff;
     color: #3860ad;
+
+    &-o {
+      background-color: #ebf2ff;
+      color: #3860ad;
+      border: 1px solid #3860ad;
+    }
   }
 
   &-error {
-    color: #EE6363;
+    color: #ee6363;
   }
 }
