@@ -1,2 +1,14 @@
 .video {
+  background: #f4f4f4;
+  border-radius: 6px;
+  width: min-content;
+  padding: 5px;
+  position: relative;
+
+  &-context-menu {
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    z-index: 100;
+  }
 }

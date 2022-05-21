@@ -1,7 +1,10 @@
 import React from "react";
 
-import type { ButtonProps } from "components/button";
+import { ButtonProps } from "components/button";
 import Main from "layout/main";
+import Video from "widgets/video";
+
+import "./Library.scss";
 
 const Library: React.FunctionComponent = () => {
   const actions: Array<ButtonProps> = [
@@ -13,7 +16,7 @@ const Library: React.FunctionComponent = () => {
       headerProps={{ actions: actions, title: "Saved Videos" }}
       title="Library"
     >
-      <div>Library</div>
+      <Video />
     </Main>
   );
 };
