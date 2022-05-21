@@ -2,9 +2,8 @@ import React from "react";
 
 export interface TextInputProps {
   headerActions?: React.ReactNode;
+  onChange?: React.InputHTMLAttributes<HTMLInputElement>["onChange"];
+  placeholder?: string;
   title?: string;
-  inputProps?: React.DetailedHTMLProps<
-    React.InputHTMLAttributes<HTMLInputElement>,
-    HTMLInputElement
-  >;
+  value?: React.InputHTMLAttributes<HTMLInputElement>["value"];
 }

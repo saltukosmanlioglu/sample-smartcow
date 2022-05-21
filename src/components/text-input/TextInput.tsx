@@ -5,8 +5,10 @@ import "./TextInput.scss";
 
 const TextInput: React.FunctionComponent<TextInputProps> = ({
   headerActions,
-  inputProps,
+  onChange,
+  placeholder,
   title,
+  value,
 }) => {
   return (
     <div className="text-input">
@@ -15,7 +17,7 @@ const TextInput: React.FunctionComponent<TextInputProps> = ({
         {headerActions}
       </div>
       <div className="text-input-body">
-        <input {...inputProps} />
+        <input placeholder={placeholder} value={value} onChange={onChange} />
       </div>
     </div>
   );
