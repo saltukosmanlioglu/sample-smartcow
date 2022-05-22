@@ -14,7 +14,7 @@ const App: React.FunctionComponent = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<SignIn />} path="sign-in" />
+        <Route element={<SignIn />} index />
         <Route element={<Registry />} path="registry" />
         <Route element={<Video />} path="video" />
         <Route element={<Library />} path="library" />
