@@ -1,2 +1,26 @@
 .background {
+  &-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+
+    & button:nth-child(1) {
+      width: calc(100% / 3 - 11px);
+
+      img {
+        width: auto;
+      }
+    }
+
+    & button {
+      width: calc(100% / 3 - 11px);
+
+      p {
+        text-align: center;
+      }
+    }
+    input {
+      display: none;
+    }
+  }
 }
